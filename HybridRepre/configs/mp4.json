@@ -1,0 +1,14 @@
+{
+    "ref_mesh": "data/mp4/mesh.obj",
+    "random_textures": true,
+    "iter": 5000,
+    "save_interval": 100,
+    "texture_res": [ 1024, 1024 ],
+    "train_res": [1936, 1082],
+    "batch": 1,
+    "learning_rate": [0.03, 0.03],
+    "background" : "black",
+    "out_dir": "mp4_nvdiff",
+    "env_scale" : 2.0,
+    "envmap": "data/irrmaps/aerodynamics_workshop_2k.hdr"
+}

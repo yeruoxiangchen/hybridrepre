@@ -1,0 +1,8 @@
+# Historical GUI, NeRF and alternate rendering entry points.
+open3d
+PyMCubes
+plotly
+pyrender
+dearpygui
+# Frosting-backed renderers additionally use https://github.com/Anttwo/Frosting
+# (frosting_scene, frosting_utils and gsplat_wrapper on PYTHONPATH).

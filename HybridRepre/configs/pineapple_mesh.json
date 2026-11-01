@@ -1,0 +1,15 @@
+{
+    "ref_mesh": "data/pineapple_nolgt",
+    "random_textures": false,
+    "iter": 200,
+    "save_interval": 100,
+    "texture_res": [ 1024, 1024 ],
+    "train_res": [1070, 1907],
+    "batch": 1,
+    "learning_rate": [0.03, 0.03],
+    "background" : "black",
+    "out_dir": "pineapple2",
+    "env_scale" : 2.0,
+    "envmap": "data/pineapple_nolgt/mesh/probe.hdr"
+}
+
