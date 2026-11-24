@@ -2,6 +2,28 @@
 
 基于 Mesh 与 3D Gaussian Splatting 的混合三维重建项目，包含 Mesh 几何与神经外观优化、局部网格调整、混合渲染，以及 UV 展开和贴图导出。
 
+<!-- results-showcase:start -->
+## 结果展示
+
+### 同视角渲染对照
+
+Hotdog 场景，同一相机视角下依次展示**参考图、仅 Mesh、独立 3DGS 与 Mesh–3DGS 混合渲染**。
+
+Mesh 列为混合优化后网格分支的单独渲染，3DGS 列为独立训练的高斯模型。
+
+![参考图、Mesh、3DGS和混合渲染的同视角对照](docs/media/hotdog_comparison.png)
+
+### 多视角结果
+
+同一模型在不同相机下的外观。每一列的参考图与混合渲染结果使用相同相机。
+
+![三个相机视角下的参考图与混合渲染结果](docs/media/hotdog_multiview.png)
+
+[参考图](docs/media/hotdog_gt.png) · [Mesh](docs/media/hotdog_mesh.png) · [3DGS](docs/media/hotdog_pure_gs.png) · [混合渲染](docs/media/hotdog_hybrid.png) · [样例说明](docs/media/samples.json)
+
+展示图片来自已保存的 Hotdog 实验结果，原始单图可点击查看；图中对照均保留对应的同视角关系。
+<!-- results-showcase:end -->
+
 ## 目录
 
 ```text

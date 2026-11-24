@@ -1,0 +1,98 @@
+{
+  "scene": "hotdog",
+  "release": "hotdog_v1_20261105T013450Z",
+  "comparison_camera": "r_99",
+  "samples": [
+    {
+      "camera": "r_99",
+      "render": "Reference",
+      "file": "hotdog_gt.png",
+      "source_size": [
+        800,
+        800
+      ]
+    },
+    {
+      "camera": "r_99",
+      "render": "Mesh only",
+      "file": "hotdog_mesh.png",
+      "source_size": [
+        800,
+        800
+      ]
+    },
+    {
+      "camera": "r_99",
+      "render": "3DGS only",
+      "file": "hotdog_pure_gs.png",
+      "source_size": [
+        800,
+        800
+      ]
+    },
+    {
+      "camera": "r_99",
+      "render": "Mesh + 3DGS",
+      "file": "hotdog_hybrid.png",
+      "source_size": [
+        800,
+        800
+      ]
+    },
+    {
+      "camera": "r_0",
+      "render": "Reference",
+      "source_size": [
+        800,
+        800
+      ],
+      "panel": 0
+    },
+    {
+      "camera": "r_62",
+      "render": "Reference",
+      "source_size": [
+        800,
+        800
+      ],
+      "panel": 0
+    },
+    {
+      "camera": "r_133",
+      "render": "Reference",
+      "source_size": [
+        800,
+        800
+      ],
+      "panel": 0
+    },
+    {
+      "camera": "r_0",
+      "render": "Hybrid",
+      "source_size": [
+        3200,
+        800
+      ],
+      "panel": 3
+    },
+    {
+      "camera": "r_62",
+      "render": "Hybrid",
+      "source_size": [
+        3200,
+        800
+      ],
+      "panel": 3
+    },
+    {
+      "camera": "r_133",
+      "render": "Hybrid",
+      "source_size": [
+        3200,
+        800
+      ],
+      "panel": 3
+    }
+  ],
+  "description": "Existing rendered images from the frozen release; each comparison column uses the same camera. Multi-view hybrid images extract panel 3 from the four-pane source contact sheets according to the frozen gallery mapping. Transparent reference pixels are composited on black to match the renderer. Panels resize images for README display."
+}
